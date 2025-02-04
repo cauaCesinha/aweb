@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 * {
     padding: 0;
     margin:0;
@@ -5,9 +6,10 @@
 
     
 body {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'DM Serif Text';
     background-color:#26200B;
     color:#DFCA55
+
 
 }
 nav{
@@ -19,30 +21,52 @@ nav li{
     display: inline-block;
     margin: -50px 5px;
     position: relative;
-    bottom: 50px;
+    bottom: 30px;
 }
 
 h1{
     color: #F2DE77;
-    padding: 0px 0px 0px 150px;
+    padding: 0px 0px 0px 200px;
     font-size: 60px;
-    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 20px;
+
+    
 }
 
 h2{
     color:#F2DE77;
-    font-size: 20px;
+    font-size: 25px;
+    position: relative;
+    left: px;
+}
+#curiosidades{
+    bottom: 100px;
+    text-align: center;
+}
+#edu{
+    text-align: center;
+
+}
+#cau{
+    text-align: center;
+}
+#ha{
+    text-align: center;
 }
 header{
     background-color:#8C7327 ;
     height: 100px;
+    position: static;
+    top: 0px;
+    z-index: 99;
     
 }
 
 section, footer {
     margin:auto;
     position: relative;
-    width: 1500px;
+    width: 1300px;
     
 
 }
@@ -52,21 +76,106 @@ section{
 
 nav li a{
     color: aliceblue;
+    position: relative;
+    bottom: 10px;
 }
 #hero img{
     left: 800px;
     position: relative;
+    border-radius: 50%;
+    border:5px solid #8C7327 ;
+    margin-bottom: 100px;
+}
+#hero{
+    border-bottom:3px solid rgb(235, 235, 199);
 }
 
 #sobre{
-    width: 400px;
-    font-size: 20px;
+    width: 800px;
+  
     position: relative;
-    bottom: 400px;
+    margin: auto;
 }
 #mim{
     width: 400px;
-    font-size: 30px;
     position: relative;
-    top:-450px;
+    text-align: center;
+    margin: auto;
 }
+#ca{
+    position: relative;
+    bottom: 650px;
+    right:300px ;  
+    width: 600px;
+    font-size: 80px;
+
+}
+.paragrafo h2{
+    font-size: 50px;
+   
+   
+
+}
+.paragrafo p{
+   
+    font-size: 20px;
+    text-align: justify;
+
+}
+.paragrafo{
+    font-size: 20px;
+}
+.card img{
+    width: 300px;
+    height: 200px;
+    border: 2px solid ;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card{
+    width:fit-content ;
+    background-color: #F2E18D;
+    position: absolute;
+    padding: 10px ;
+    border-radius: 10px;
+    z-index: 1;
+    transition: .1s ease-in
+
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    z-index: 2;
+    scale: 1.1;
+}
+.card p {
+    margin: auto;
+    color: #26220F;
+    width:310px;
+}
+#curios{
+    height: 800px;
+    position: relative;
+    margin-top: 300px;
+}
+.esquedar {
+    left: 0;
+}
+
+.direita {
+    right: 0;
+}
+
+.meio {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.linha2 {
+    top: 400px;
+}
+
+
