@@ -43,21 +43,31 @@ h2{
 #curiosidades{
     bottom: 100px;
     text-align: center;
+    
 }
 #edu{
     text-align: center;
+   
 
 }
 #cau{
     text-align: center;
+    
 }
+#sos p {
+    width: 800px;
+    position: relative;
+    margin: auto;
+}
+
 #ha{
     text-align: center;
+    
 }
 header{
     background-color:#8C7327 ;
     height: 100px;
-    position: static;
+    position: sticky;
     top: 0px;
     z-index: 99;
     
@@ -158,6 +168,30 @@ nav li a{
     position: relative;
     margin-top: 300px;
 }
+#cao{
+    margin-top: 300px;
+}
+#sos{
+    margin-top: 300px;
+}
+
+    
+
+#habi{
+    background-color:#260b0170 ;
+    border:1px solid white;
+    margin: 300px;
+    text-align:left;
+    padding: 20px;
+
+}
+#habi li{
+    margin: 10px;
+    bottom: 30px;
+}
+#habi ul{
+    list-style-type: none;
+}
 .esquedar {
     left: 0;
 }
@@ -177,5 +211,39 @@ nav li a{
 .linha2 {
     top: 400px;
 }
+#edu{
+    
+    margin: 100px;
+}
+table{
+    font-size: 20px;
+    background-color: white;
+    margin: auto;
+}
+table td,th{
+    border: 1px solid black;
+}
+table td,th{
+    color: #26200B
+    ;
+}
+footer{
+    border-top:2px solid white;
+
+    margin-bottom: 0px;    
+    text-align: center;
+}
+footer ul {
+    list-style-type: none;
+}
+footer a {
+    color: #DFCA55;
+}
+
+#titulo2{
+    
+    font-size: 20px;
+}
+
 
 
