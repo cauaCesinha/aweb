@@ -100,10 +100,59 @@ header img {
     justify-content:center ;
     align-items: center;
 }
-.Ending{
-    display: inline;
-    height: 200px;
+#Locations {
+    background-image: url("resources/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 10px;
 }
-footer{
+
+#Locations h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.locbox-container {
+    display: flex;
+    gap: 40px;
+
+    justify-content: center;
+}
+
+.loc-box {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#Ending {
+    height: 200px;
+    text-align: center;
+}
+
+#Ending h2 {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#Ending h5 {
+    padding: 15px;
+}
+
+footer p {
+    margin: 20px;
     text-align: left;
 }
