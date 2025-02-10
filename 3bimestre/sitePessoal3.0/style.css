@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    padding: 0;
+    margin:0;
+    border: 0;
+}
+
+    
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+
+    font-family:'DM Serif Text';
+    background-color:#26200B;
+    color:#DFCA55;
+}
+nav{
+    width: fit-content;
+    margin: auto;
+}
+
+nav li{
+    display: inline-block;
+    margin: -50px 5px;
+    position: relative;
+    bottom: 30px;
+}
+
+h1{
+    color: #F2DE77;
+    font-size: 60px;
+    
+
+    
+}
+
+header h1 {
+    left: 200px;
+    position: relative;
+    bottom: 20px;
+}
+
+h2{
+    color:#F2DE77;
+    font-size: 25px;
+}
+#curiosidades{
+    bottom: 100px;
+    text-align: center;
+    
+}
+#edu{
+    text-align: center;
+   
+
+}
+#cau{
+    text-align: center;
+    
+}
+#sos p {
+    width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+#ha{
+    text-align: center;
+    
+}
+header{
+    background-color:#8C7327 ;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    grid-column: 1/13;
+}
+
+section, footer {
+    margin:auto;
+    position: relative;
+}
+footer{
+    grid-column: 1/13;
+}
+section{
+    margin: 100px auto;
+    grid-column: 3/11;
+}
+
+nav li a{
+    color: aliceblue;
+    position: relative;
+    bottom: 10px;
+}
+#hero img{
+    border-radius: 50%;
+    border:5px solid #8C7327 ;
+    margin-bottom: 100px;
+}
+#hero{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:3px solid rgb(235, 235, 199);
+
+    grid-column: 1/13;
+}
+
+#sobre{
+    width: 800px;
+  
+    position: relative;
+    margin: auto;
+}
+#mim{
+    width: 400px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+#hero h1{
+    font-size: 80px;
+    width: 30%;
+}
+.paragrafo h2{
+    font-size: 50px;
+   
+   
+
+}
+.paragrafo p{
+   
+    font-size: 20px;
+    text-align: justify;
+
+}
+.paragrafo{
+    font-size: 20px;
+}
+.card img{
+    width: 300px;
+    height: 200px;
+    border: 2px solid ;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card{
+    width:fit-content ;
+    background-color: #F2E18D;
+    position: absolute;
+    padding: 10px ;
+    border-radius: 10px;
+    z-index: 1;
+    transition: .1s ease-in
+
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    z-index: 2;
+    scale: 1.1;
+}
+.card p {
+    margin: auto;
+    color: #26220F;
+    width:310px;
+}
+#curios{
+    height: 800px;
+    margin-top: 300px;
+    width: 100%;
+}
+
+#curios h2 {
+    margin-bottom: 30px;
+}
+
+#cao{
+    margin-top: 300px;
+}
+#sos{
+    margin-top: 300px;
+}
+
+    
+
+#habi{
+    background-color:#260b0170 ;
+    border:1px solid white;
+    margin: 300px;
+    text-align:left;
+    padding: 20px;
+
+}
+#habi li{
+    margin: 10px;
+    bottom: 30px;
+}
+#habi ul{
+    list-style-type: none;
+}
+.esquedar {
+    left: 0;
+}
+
+.direita {
+    right: 0;
+}
+
+.meio {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.linha2 {
+    top: 400px;
+}
+#edu{
+    
+    margin: 100px;
+}
+table{
+    font-size: 20px;
+    background-color: white;
+    margin: auto;
+}
+table td,th{
+    border: 1px solid black;
+}
+table td,th{
+    color: #26200B;
+}
+footer{
+    border-top:2px solid white;
+
+    margin-bottom: 0px;    
+    text-align: center;
+
+    width: 100%;
+}
+footer ul {
+    list-style-type: none;
+}
+footer a {
+    color: #DFCA55;
+}
+
+#titulo2{
+    
+    font-size: 20px;
+}
+
+
+
