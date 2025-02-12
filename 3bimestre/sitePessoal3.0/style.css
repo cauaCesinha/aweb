@@ -270,9 +270,26 @@ footer a {
 
 /* CELULAR */
 
+.header-mobile {
+    display: none;
+}
+
 @media screen and (max-width: 390px) 
 {
     body {
-        color: aqua;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
+
+
+    .header-mobile {
+        display: block;
+    }
+
+    .header-pc {
+        display: none;
+    }
+
+    
+    
 }
