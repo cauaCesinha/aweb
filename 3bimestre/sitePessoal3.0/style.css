@@ -15,7 +15,8 @@ body {
     background-color:#26200B;
     color:#DFCA55;
 }
-nav{
+
+nav {
     width: fit-content;
     margin: auto;
 }
@@ -27,12 +28,14 @@ nav li{
     bottom: 30px;
 }
 
-h1{
+h1 {
     color: #F2DE77;
     font-size: 60px;
-    
+}
 
-    
+h2 {
+    color:#F2DE77;
+    font-size: 25px;
 }
 
 header h1 {
@@ -42,31 +45,26 @@ header h1 {
     margin-left: 200px;
 }
 
-h2{
-    color:#F2DE77;
-    font-size: 25px;
+#edu {
+    text-align: center;
 }
 
-#edu{
+#cau {
     text-align: center;
-   
+}
 
-}
-#cau{
-    text-align: center;
-    
-}
 #sos p {
     width: 800px;
     position: relative;
     margin: auto;
 }
 
-#ha{
+#ha {
     text-align: center;
     
 }
-header{
+
+header {
     background-color:#8C7327 ;
     height: 100px;
     position: sticky;
@@ -74,7 +72,8 @@ header{
     z-index: 99;
     grid-column: 1/13;
 }
-nav svg{
+
+nav svg {
     height: 20px;
     margin-right: 6px;
 }
@@ -84,12 +83,12 @@ section, footer {
     position: relative;
 }
 
-section{
+section {
     margin: 100px auto;
     grid-column: 3/11;
 }
 
-nav li a{
+nav li a {
     color: aliceblue;
     position: relative;
     bottom: 10px;
@@ -97,12 +96,14 @@ nav li a{
     display: flex;
     align-items: center;
 }
-#hero img{
+
+#hero img {
     border-radius: 50%;
     border:5px solid #8C7327 ;
     margin-bottom: 100px;
 }
-#hero{
+
+#hero {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -114,37 +115,32 @@ nav li a{
     margin-top: 0px;
 }
 
-#sobre{
+#sobre {
     width: 800px;
   
     position: relative;
     margin: auto;
 }
 
-    
-#hero h1{
+#hero h1 {
     font-size: 80px;
     width: 30%;
 }
-.paragrafo h2{
-    font-size: 50px;
-   
-   
 
+.paragrafo h2 {
+    font-size: 50px;
 }
 
-.paragrafo p{
-   
+.paragrafo p {
     font-size: 20px;
     text-align: justify;
-
 }
 
-.paragrafo{
+.paragrafo {
     font-size: 20px;
 }
 
-#curios{
+#curios {
     margin-top: 300px;
     width: 100%;
     
@@ -160,17 +156,15 @@ nav li a{
     grid-column: 1/9;
 }
 
-.card img{
+.card img {
     width: 90%;
     height: 300px;
     border: 2px solid ;
     object-fit: cover;
     border-radius: 10px;
-
-    
 }
 
-.card{
+.card {
     grid-column: span 4;
     background-color: #F2E18D;
     border-radius: 10px;
@@ -186,28 +180,28 @@ nav li a{
     width: 100%;
 }
 
-.card:hover{
+.card:hover {
     cursor: pointer;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     z-index: 2;
     scale: 1.1;
 }
+
 .card p {
     color: #26220F;
     text-align: center;
     margin: 10px 0 0 0;
 }
 
-#cao{
-    margin-top: 300px;
-}
-#sos{
+#cao {
     margin-top: 300px;
 }
 
-    
+#sos {
+    margin-top: 300px;
+}
 
-#habi{
+#habi {
     background-color:#260b0170 ;
     border:1px solid white;
     margin: 300px;
@@ -215,30 +209,36 @@ nav li a{
     padding: 20px;
 
 }
-#habi li{
+
+#habi li {
     margin: 10px;
     bottom: 30px;
 }
-#habi ul{
+
+#habi ul {
     list-style-type: none;
 }
 
-#edu{
+#edu {
     
     margin: 100px;
 }
-table{
+
+table {
     font-size: 20px;
     background-color: white;
     margin: auto;
 }
-table td,th{
+
+table td, th {
     border: 1px solid black;
 }
-table td,th{
+
+table td, th {
     color: #26200B;
 }
-footer{
+
+footer {
     border-top:2px solid white;
 
     margin-bottom: 0px;    
@@ -249,21 +249,30 @@ footer{
 
     grid-column: 1/13;
 }
-footer svg{
-    height: 20px;
 
+footer svg {
+    height: 20px;
+    margin-right: 10px;
 }
+
 footer ul {
     list-style-type: none;
 }
+
 footer a {
     color: #DFCA55;
+    text-decoration: none;
 }
 
-#titulo2{
-    
+#titulo2 {
     font-size: 20px;
 }
 
+/* CELULAR */
 
-
+@media screen and (max-width: 390px) 
+{
+    body {
+        color: aqua;
+    }
+}
