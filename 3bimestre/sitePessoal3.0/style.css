@@ -67,7 +67,7 @@ header h1 {
 .header-mobile {
     display: none;
 }
-
+ 
 header {
     background-color:#8C7327 ;
     height: 100px;
@@ -291,22 +291,55 @@ footer a {
     }
 
     .header-mobile {
-        display: block;
-
+        display: flex;
+        align-items: center;
+    
         width: 90%;
         height: 100px;
         border-radius: 10px;
-
+    
         position: fixed;
         top: auto;
         bottom: 0;
+        right: 5%;
+        left: 5%;
         z-index: 10000;
-
+    
         grid-column: 1/5;
     }
-
-    header .nomesite {
-        display: none;
+    
+    .header-mobile svg {
+        height: 50px;
+    }
+    
+    .header-mobile svg:hover {
+        fill:#F2DE77;
+    }
+    
+    .header-mobile nav ul {
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .header-mobile nav {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .header-mobile nav li{
+        position: relative;
+        top: auto;
+        bottom: auto;
+        margin: 0;
+    }
+    
+    .header-mobile nav li a{
+        position: relative;
+        top: auto;
+        bottom: auto;
+        margin: 0;
     }
 
     #hero {
